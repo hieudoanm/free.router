@@ -1,0 +1,39 @@
+{
+  "name": "@free.router/docs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Free OpenRouter",
+  "main": "index.js",
+  "keywords": [
+    "free",
+    "open.router"
+  ],
+  "homepage": "https://hieudoanm.github.io/free.router",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hieudoanm/free.router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hieudoanm/free.router/issues"
+  },
+  "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+  "license": "GPL-3.0",
+  "packageManager": "pnpm@10.32.1",
+  "engines": {
+    "node": "25.8.1"
+  },
+  "scripts": {
+    "prebuild": "rimraf ../../docs",
+    "build": "rimraf ../../docs && docsify init ../../docs",
+    "test": "true",
+    "lint": "true",
+    "format": "prettier --cache --write .",
+    "predev": "rimraf ./docs && docsify init ./docs",
+    "dev": "docsify serve ./docs"
+  },
+  "devDependencies": {
+    "docsify-cli": "4.4.4",
+    "prettier": "3.8.1",
+    "rimraf": "6.1.3"
+  }
+}
