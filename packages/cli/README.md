@@ -11,9 +11,7 @@
 ## 📦 Installation
 
 ```bash
-curl -fsSL https://github.com/hieudoanm/free.router/raw/refs/heads/master/packages/cli/bin/fr -o fr
-chmod +x fr
-sudo mv fr /usr/local/bin/
+curl -fsSL https://raw.githubusercontent.com/hieudoanm/free.router/master/packages/cli/scripts/install.sh | bash
 ```
 
 ## 🚀 Usage
