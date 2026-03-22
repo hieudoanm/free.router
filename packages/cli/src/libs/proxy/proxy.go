@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hieudoanm/free.router/libs/openrouter"
+	"github.com/hieudoanm/free.router/src/libs/openrouter"
 )
 
 const upstreamURL = "https://openrouter.ai/api/v1/chat/completions"

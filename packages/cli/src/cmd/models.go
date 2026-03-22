@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/hieudoanm/free.router/libs/openrouter"
+	"github.com/hieudoanm/free.router/src/libs/openrouter"
 	"github.com/spf13/cobra"
 )
 
@@ -19,7 +19,7 @@ var (
 
 var modelsCmd = &cobra.Command{
 	Use:   "models",
-	Short: "List all free models available on OpenRouter",
+	Short: "Run the models operation for the free.router app",
 	RunE:  runModels,
 }
 

@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/fatih/color"
-	"github.com/hieudoanm/free.router/libs/config"
-	"github.com/hieudoanm/free.router/libs/openrouter"
+	"github.com/hieudoanm/free.router/src/libs/config"
+	"github.com/hieudoanm/free.router/src/libs/openrouter"
 	"github.com/spf13/cobra"
 )
 
@@ -20,16 +20,10 @@ var (
 
 var statusCmd = &cobra.Command{
 	Use:   "status",
-	Short: "Probe free models and show which are available, rate-limited, or restricted",
-	Long: `Sends a minimal request to each free model in parallel and reports:
-  ✔ OK          — model is reachable (shows latency)
-  ⚡ RATE-LIMIT  — hit upstream rate limit, try again later
-  🔒 RESTRICTED  — blocked by provider privacy/guardrail settings
-  ✖ ERROR        — unexpected failure
+	Short: "Run the status operation for the free.router app",
+	Long:  `The status command is a specific utility to execute operations related to status within the free.router application.
 
-Examples:
-  freerouter status                  # probe all free models
-  freerouter status --search llama   # probe only matching models`,
+As a component of the ai tools, this command empowers you to interact directly with free.router's status features via the CLI.`,
 	RunE: runStatus,
 }
 

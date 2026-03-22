@@ -1,0 +1,27 @@
+package cmd
+
+import (
+	"os"
+
+	"github.com/spf13/cobra"
+)
+
+var rootCmd = &cobra.Command{
+	Use:   "fr",
+	Short: "Free.router CLI application (ai tools)",
+	Long:  `The free.router CLI application is a comprehensive backend utility belonging to the ai suite of tools.
+
+Use this root executable to manage configuring, running, and interacting with all free.router-related operations securely and efficiently from your terminal.`,
+}
+
+func Execute() {
+	if err := rootCmd.Execute(); err != nil {
+		os.Exit(1)
+	}
+}
+
+func init() {
+	rootCmd.AddCommand(modelsCmd)
+	rootCmd.AddCommand(runCmd)
+	rootCmd.AddCommand(statusCmd)
+}

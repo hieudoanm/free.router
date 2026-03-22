@@ -11,9 +11,9 @@ import (
 	"syscall"
 
 	"github.com/fatih/color"
-	"github.com/hieudoanm/free.router/libs/config"
-	"github.com/hieudoanm/free.router/libs/openrouter"
-	"github.com/hieudoanm/free.router/libs/proxy"
+	"github.com/hieudoanm/free.router/src/libs/config"
+	"github.com/hieudoanm/free.router/src/libs/openrouter"
+	"github.com/hieudoanm/free.router/src/libs/proxy"
 	"github.com/spf13/cobra"
 )
 
@@ -24,15 +24,10 @@ var (
 
 var runCmd = &cobra.Command{
 	Use:   "run <model>",
-	Short: "Start a local OpenAI-compatible proxy for the given free model",
-	Long: `Start a local HTTP server on the given port (default 11434) that
-speaks the OpenAI Chat Completions API and proxies requests to OpenRouter
-using the specified free model. Cursor can connect to it as a custom model.
+	Short: "Run the run operation for the free.router app",
+	Long:  `The run command is a specific utility to execute operations related to run within the free.router application.
 
-The <model> argument supports fuzzy matching:
-  freerouter run llama-4-scout
-  freerouter run scout
-  freerouter run meta-llama/llama-4-scout:free`,
+As a component of the ai tools, this command empowers you to interact directly with free.router's run features via the CLI.`,
 	Args: cobra.ExactArgs(1),
 	RunE: runRun,
 }
