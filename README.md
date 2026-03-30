@@ -39,6 +39,9 @@ Free Router is a focused project in this monorepo that delivers a practical tool
 - 💻 [CLI](https://github.com/hieudoanm/free.router/releases)
 - 📱 [Mobile](https://github.com/hieudoanm/free.router/releases)
 - 🖥️ [Desktop](https://github.com/hieudoanm/free.router/releases)
+  - 🍎 [MacOS](https://github.com/hieudoanm/free.router/releases/tag/macos-latest)
+  - 🐧 [Ubuntu](https://github.com/hieudoanm/free.router/releases/tag/ubuntu-latest)
+  - 🪟 [Windows](https://github.com/hieudoanm/free.router/releases/tag/windows-latest)
 
 ## 🛠️ 5. Development Stack
 
