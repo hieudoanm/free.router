@@ -1,8 +1,8 @@
-# 🚀 [Free Router](https://hieudoanm.github.io/free.router/)
+# 🚀 [Postmanify](https://hieudoanm.github.io/postmanify/)
 
 ## 📚 Table of Contents
 
-- [🚀 Free Router](#-free-router)
+- [🚀 Postmanify](#-postmanify)
   - [📚 Table of Contents](#-table-of-contents)
   - [📖 1. Overview](#-1-overview)
   - [✨ 2. Features](#-2-features)
@@ -19,11 +19,11 @@
 
 ## 📖 1. Overview
 
-Free Router is a focused project in this monorepo that delivers a practical tool with a clean user experience across platforms.
+Postmanify is a focused project in this monorepo that delivers a practical tool with a clean user experience across platforms.
 
 ## ✨ 2. Features
 
-1. [x] Core functionality tailored to Free Router
+1. [x] Core functionality tailored to Postmanify
 2. [x] Web experience for quick access
 3. [x] CLI distribution for automation workflows
 4. [x] Mobile-ready build targets

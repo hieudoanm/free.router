@@ -1,18 +1,18 @@
 {
-  "name": "@free.router/workspace",
+  "name": "@postmanify/workspace",
   "version": "0.0.1",
   "description": "Chat",
   "keywords": [
-    "free",
-    "open.router"
+    "openapi",
+    "postman"
   ],
-  "homepage": "https://hieudoanm.github.io/free.router",
+  "homepage": "https://hieudoanm.github.io/postmanify",
   "bugs": {
-    "url": "https://github.com/hieudoanm/free.router/issues"
+    "url": "https://github.com/hieudoanm/postmanify/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/free.router.git"
+    "url": "git+ssh://git@github.com/hieudoanm/postmanify.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
